@@ -14,6 +14,17 @@
 		79325F3922F0424A00B21CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79325F3722F0424A00B21CCA /* LaunchScreen.storyboard */; };
 		79325F4422F0424A00B21CCA /* BayrakUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F4322F0424A00B21CCA /* BayrakUygulamasiTests.swift */; };
 		79325F4F22F0424A00B21CCA /* BayrakUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F4E22F0424A00B21CCA /* BayrakUygulamasiUITests.swift */; };
+		79325F5D22F042D000B21CCA /* QuizEkraniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F5C22F042D000B21CCA /* QuizEkraniViewController.swift */; };
+		79325F5F22F042DF00B21CCA /* SonucEkraniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F5E22F042DF00B21CCA /* SonucEkraniViewController.swift */; };
+		DE3D2E6628103757009F5EE4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3D2E6528103746009F5EE4 /* libsqlite3.tbd */; };
+		DE3D2E732810377F009F5EE4 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2E692810377F009F5EE4 /* FMDatabaseAdditions.m */; };
+		DE3D2E742810377F009F5EE4 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2E6C2810377F009F5EE4 /* FMDatabasePool.m */; };
+		DE3D2E752810377F009F5EE4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2E6D2810377F009F5EE4 /* FMResultSet.m */; };
+		DE3D2E762810377F009F5EE4 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2E712810377F009F5EE4 /* FMDatabase.m */; };
+		DE3D2E772810377F009F5EE4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2E722810377F009F5EE4 /* FMDatabaseQueue.m */; };
+		DE3D2E79281037C2009F5EE4 /* bayrakquiz.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DE3D2E78281037C1009F5EE4 /* bayrakquiz.sqlite */; };
+		DE3D2E7E2810390E009F5EE4 /* Bayraklar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2E7D2810390E009F5EE4 /* Bayraklar.swift */; };
+		DE3D2E8028103B54009F5EE4 /* Bayraklardao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2E7F28103B54009F5EE4 /* Bayraklardao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,24 @@
 		79325F4A22F0424A00B21CCA /* BayrakUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayrakUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79325F4E22F0424A00B21CCA /* BayrakUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayrakUygulamasiUITests.swift; sourceTree = "<group>"; };
 		79325F5022F0424A00B21CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79325F5C22F042D000B21CCA /* QuizEkraniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEkraniViewController.swift; sourceTree = "<group>"; };
+		79325F5E22F042DF00B21CCA /* SonucEkraniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkraniViewController.swift; sourceTree = "<group>"; };
+		DE3D2E6528103746009F5EE4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DE3D2E672810377E009F5EE4 /* BayrakUygulamasi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BayrakUygulamasi-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE3D2E682810377F009F5EE4 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DE3D2E692810377F009F5EE4 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DE3D2E6A2810377F009F5EE4 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DE3D2E6B2810377F009F5EE4 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DE3D2E6C2810377F009F5EE4 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DE3D2E6D2810377F009F5EE4 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DE3D2E6E2810377F009F5EE4 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DE3D2E6F2810377F009F5EE4 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DE3D2E702810377F009F5EE4 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DE3D2E712810377F009F5EE4 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DE3D2E722810377F009F5EE4 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DE3D2E78281037C1009F5EE4 /* bayrakquiz.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bayrakquiz.sqlite; sourceTree = "<group>"; };
+		DE3D2E7D2810390E009F5EE4 /* Bayraklar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayraklar.swift; sourceTree = "<group>"; };
+		DE3D2E7F28103B54009F5EE4 /* Bayraklardao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayraklardao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3D2E6628103757009F5EE4 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,7 @@
 				79325F4222F0424A00B21CCA /* BayrakUygulamasiTests */,
 				79325F4D22F0424A00B21CCA /* BayrakUygulamasiUITests */,
 				79325F2C22F0424900B21CCA /* Products */,
+				DE3D2E6428103746009F5EE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +128,29 @@
 		79325F2D22F0424900B21CCA /* BayrakUygulamasi */ = {
 			isa = PBXGroup;
 			children = (
+				DE3D2E78281037C1009F5EE4 /* bayrakquiz.sqlite */,
 				79325F2E22F0424900B21CCA /* AppDelegate.swift */,
 				79325F3022F0424900B21CCA /* ViewController.swift */,
+				79325F5C22F042D000B21CCA /* QuizEkraniViewController.swift */,
+				79325F5E22F042DF00B21CCA /* SonucEkraniViewController.swift */,
+				DE3D2E7D2810390E009F5EE4 /* Bayraklar.swift */,
 				79325F3222F0424900B21CCA /* Main.storyboard */,
 				79325F3522F0424A00B21CCA /* Assets.xcassets */,
 				79325F3722F0424A00B21CCA /* LaunchScreen.storyboard */,
 				79325F3A22F0424A00B21CCA /* Info.plist */,
+				DE3D2E6A2810377F009F5EE4 /* FMDatabase.h */,
+				DE3D2E712810377F009F5EE4 /* FMDatabase.m */,
+				DE3D2E6F2810377F009F5EE4 /* FMDatabaseAdditions.h */,
+				DE3D2E692810377F009F5EE4 /* FMDatabaseAdditions.m */,
+				DE3D2E6E2810377F009F5EE4 /* FMDatabasePool.h */,
+				DE3D2E6C2810377F009F5EE4 /* FMDatabasePool.m */,
+				DE3D2E702810377F009F5EE4 /* FMDatabaseQueue.h */,
+				DE3D2E722810377F009F5EE4 /* FMDatabaseQueue.m */,
+				DE3D2E682810377F009F5EE4 /* FMDB.h */,
+				DE3D2E6B2810377F009F5EE4 /* FMResultSet.h */,
+				DE3D2E6D2810377F009F5EE4 /* FMResultSet.m */,
+				DE3D2E672810377E009F5EE4 /* BayrakUygulamasi-Bridging-Header.h */,
+				DE3D2E7F28103B54009F5EE4 /* Bayraklardao.swift */,
 			);
 			path = BayrakUygulamasi;
 			sourceTree = "<group>";
@@ -123,6 +171,14 @@
 				79325F5022F0424A00B21CCA /* Info.plist */,
 			);
 			path = BayrakUygulamasiUITests;
+			sourceTree = "<group>";
+		};
+		DE3D2E6428103746009F5EE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE3D2E6528103746009F5EE4 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +249,7 @@
 				TargetAttributes = {
 					79325F2A22F0424900B21CCA = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1320;
 					};
 					79325F3E22F0424A00B21CCA = {
 						CreatedOnToolsVersion = 10.3;
@@ -229,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3D2E79281037C2009F5EE4 /* bayrakquiz.sqlite in Resources */,
 				79325F3922F0424A00B21CCA /* LaunchScreen.storyboard in Resources */,
 				79325F3622F0424A00B21CCA /* Assets.xcassets in Resources */,
 				79325F3422F0424900B21CCA /* Main.storyboard in Resources */,
@@ -257,7 +315,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				79325F3122F0424900B21CCA /* ViewController.swift in Sources */,
+				DE3D2E742810377F009F5EE4 /* FMDatabasePool.m in Sources */,
+				DE3D2E752810377F009F5EE4 /* FMResultSet.m in Sources */,
+				79325F5D22F042D000B21CCA /* QuizEkraniViewController.swift in Sources */,
 				79325F2F22F0424900B21CCA /* AppDelegate.swift in Sources */,
+				DE3D2E7E2810390E009F5EE4 /* Bayraklar.swift in Sources */,
+				79325F5F22F042DF00B21CCA /* SonucEkraniViewController.swift in Sources */,
+				DE3D2E732810377F009F5EE4 /* FMDatabaseAdditions.m in Sources */,
+				DE3D2E762810377F009F5EE4 /* FMDatabase.m in Sources */,
+				DE3D2E8028103B54009F5EE4 /* Bayraklardao.swift in Sources */,
+				DE3D2E772810377F009F5EE4 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BayrakUygulamasi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +508,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.BayrakUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BayrakUygulamasi/BayrakUygulamasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BayrakUygulamasi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +528,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.BayrakUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BayrakUygulamasi/BayrakUygulamasi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
